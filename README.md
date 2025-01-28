@@ -8,3 +8,5 @@ different designs present...whole list
 the desigm picorv32a on which we will work... components of the design picorv32a
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/6773a00cc4b516c72cae71098e071bc402531ed4/Screenshot%20from%202025-01-28%2012-17-31.png)
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/6773a00cc4b516c72cae71098e071bc402531ed4/Screenshot%20from%202025-01-28%2012-17-35.png)
+synthesis done
+![image_alt](https://github.com/mishika20/openlane-working-dir/blob/199d24b84a6c518b00a6413630dc50fc5bcd1897/Screenshot%20from%202025-01-28%2013-27-50.png)
