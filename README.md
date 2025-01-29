@@ -45,16 +45,25 @@ screenshot of contents of floorplan def
 according to foorplan def
 
 1000 unit distance = 1 Micron
+
 die width in unit distance = 660685
+
 die height in unit distance = 671405
+
 distance in microns = value in unit distance/ 1000
+
 die width = 660685/1000 = 660.685 Micron
+
 die height = 671405/1000 = 671.405 Micron
+
 area of die in micron = 660.685 * 671.405 = 443587.2124 Square Micron
+
 Commands to load floorplan def in magic 
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+
 screenshots of floorplan def in magic
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2016-58-09.png)
+
 press s then v to keep this in centre
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2016-59-18.png)
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2017-02-18.png)
@@ -64,11 +73,13 @@ press s then v to keep this in centre
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2017-11-02.png)
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2017-12-23.png)
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2017-14-38.png)
+
 command to run placement run_placement
 screenshot of placement run
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2020-34-31.png)
 command to load placement def in magic 
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+
 Screenshot of floorplan def in magic
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2020-32-13.png)
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2020-32-26%20-%201.png)
