@@ -91,4 +91,34 @@ git clone https://github.com/nickson-jose/vsdstdcelldesign
 
 screenshot showing clone and changing directory as well as the copying the file
 
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/6227e8149f7aad3a9dcd9fd613c18befb371203e/Screenshot%20from%202025-01-29%2022-13-23.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/6227e8149f7aad3a9dcd9fd613c18befb371203e/Screenshot%20from%202025-01-29%2022-24-12.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/6227e8149f7aad3a9dcd9fd613c18befb371203e/Screenshot%20from%202025-01-29%2022-24-25.png)
+
+command to open custom inverter layout in magic
+
+magic -T sky130.tech sky130_inv.mag &
+
+screenshot of custom inverter layout in magic
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/6227e8149f7aad3a9dcd9fd613c18befb371203e/Screenshot%20from%202025-01-29%2022-27-37.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/6227e8149f7aad3a9dcd9fd613c18befb371203e/Screenshot%20from%202025-01-29%2022-28-03.png)
+
+NMOS and PMOS identified
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/911d1eeced064ec146e7fb4f9887a187ed14a13f/Screenshot%20from%202025-01-29%2023-01-55.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/911d1eeced064ec146e7fb4f9887a187ed14a13f/Screenshot%20from%202025-01-29%2023-02-26.png)
+
+Output Y connectivity to PMOS and NMOS drain verified
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/911d1eeced064ec146e7fb4f9887a187ed14a13f/Screenshot%20from%202025-01-29%2023-05-29.png)
+
+PMOS source connectivity to VDD verified
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/911d1eeced064ec146e7fb4f9887a187ed14a13f/Screenshot%20from%202025-01-29%2023-05-47.png)
+
+NMOS source connectivity to VSS verified
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/911d1eeced064ec146e7fb4f9887a187ed14a13f/Screenshot%20from%202025-01-29%2023-05-59.png)
+
+SPICE EXTRACTION
+screenshot of tkcon window
 
