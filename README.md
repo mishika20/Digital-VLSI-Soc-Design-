@@ -11,7 +11,8 @@ different designs present...whole list
 
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/6773a00cc4b516c72cae71098e071bc402531ed4/Screenshot%20from%202025-01-28%2012-17-27.png)
 
-the desigm picorv32a on which we will work... /n
+the desigm picorv32a on which we will work... 
+
 components of the design picorv32a
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/6773a00cc4b516c72cae71098e071bc402531ed4/Screenshot%20from%202025-01-28%2012-17-31.png)
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/6773a00cc4b516c72cae71098e071bc402531ed4/Screenshot%20from%202025-01-28%2012-17-35.png)
@@ -23,9 +24,12 @@ calculate the flop ratio
 screenshot of synthesis statistics with required values highlighted
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2016-11-06.png)
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2016-11-43.png)
-calculation of flop ratio and dff from report /n
-flop ratio = 1613 / 14876 = 0.108429685 /n
-percentage of DFF = 0.108429685* 100 = 10.8429685 /n
+calculation of flop ratio and dff from report
+
+flop ratio = 1613 / 14876 = 0.108429685 
+
+percentage of DFF = 0.108429685* 100 = 10.8429685
+
 now we can run floorplan
 run_floorplan
 screenshots of floorplan run
@@ -39,6 +43,7 @@ calculate the die area in microns from the values in floorplan def
 screenshot of contents of floorplan def
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2016-49-13.png)
 according to foorplan def
+
 1000 unit distance = 1 Micron
 die width in unit distance = 660685
 die height in unit distance = 671405
