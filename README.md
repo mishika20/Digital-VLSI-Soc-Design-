@@ -84,3 +84,11 @@ Screenshot of floorplan def in magic
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2020-32-13.png)
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2020-32-26%20-%201.png)
 ![image_alt](https://github.com/mishika20/openlane-working-dir/blob/8ce9be09d77eefaa9f1598291520edc804d08b07/Screenshot%20from%202025-01-29%2020-32-26%20-%202.png)
+
+Clone custom inverter standard cell design from github repository
+command is
+git clone https://github.com/nickson-jose/vsdstdcelldesign
+
+screenshot showing clone and changing directory as well as the copying the file
+
+
