@@ -189,5 +189,50 @@ NOTING DOWN CURRENT DESIGN VALUES GENERATED BEFORE MODIFYING PARAMETERS TO IMPRO
 # Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flowpackage require openlane 0.9
 # Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design which in our case is 'picorv32a'prep -design picorv32a
 # Adiitional commands to include newly added lef to openlane flowset lefs [glob $::env(DESIGN_DIR)/src/*.lef]add_lefs -src $lefs
-# Now that the design is prepped and ready, we can run synthesis using following commandrun_synthesis
+# Now that the design is prepped and ready, we can run synthesis using following command
+run_synthesis
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2018-53-17.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2019-41-59.png)
+
+CAMPARING TO PREVIOUSLY NOTED RUN VALUES AREA HAS INCREASED AND WORST NEGATIVE SLACK HAS BECOME 0
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2019-42-17.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2019-42-36.png)
+
+now THAT OUR CUSTOM INVERTER IS PROPERLY ACCEPTED IN SYNTHESIS WE CAN NOW RUN FLOORPLAN AND PLACEMENT
+
+RUN_SYNTHESIS
+
+SCREENSHOTS OF COMMAND RUN
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2019-43-29.png)
+
+since WE HAVE FACED UNEXPECTED ERROR WE USE SET OF COMMANDS AVAILABLE UNDER FLOORPLAN.TCL AND OPENLANE_COMMANDS.MD
+init_floorplan
+place_io
+tap_decap_or
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2019-52-00.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2019-52-19.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2019-52-38.png)
+
+NOW THAT FLOORPLAN IS DONE WE CAN DO PLACEMENT
+RUN_PLACEMENT
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2019-54-17.png)
+
+after placement now command to load placement def in magic in another terminal
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-07-14.png)
+
+SCREENSHOT OF PLACEMENT DEF IN MAGIC
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-07-27.png)
+
+SCREENSHOT OF CUSTOM INVERTER INSERTED IN PLACEMENT DEF 
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-14-10.png)
+
+coMMAND ON TKCON WINDOW
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-15-41.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-16-11.png)
+
 
