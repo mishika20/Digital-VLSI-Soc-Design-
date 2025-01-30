@@ -122,3 +122,17 @@ NMOS source connectivity to VSS verified
 SPICE EXTRACTION
 screenshot of tkcon window
 
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-29%2023-28-12.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-29%2023-25-22.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-29%2023-28-53.png)
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-29%2023-30-35.png)
+
+changes made in the spice file
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-30%2009-44-34.png)
+
+then run ngspice, for that ngspice need to be installed 
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-30%2000-46-04.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-30%2000-45-57.png)
+
