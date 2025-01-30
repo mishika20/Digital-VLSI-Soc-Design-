@@ -136,3 +136,4 @@ then run ngspice, for that ngspice need to be installed
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-30%2000-46-04.png)
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-30%2000-45-57.png)
 
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/a3a42f115dadf49aff66708da104e4018b727d44/Screenshot%202025-01-30%20094331.png)
