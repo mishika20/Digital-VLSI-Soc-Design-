@@ -137,3 +137,57 @@ then run ngspice, for that ngspice need to be installed
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/d419b86a029e15e81a8c4ca54d0c867cfe94debb/Screenshot%20from%202025-01-30%2000-45-57.png)
 
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/a3a42f115dadf49aff66708da104e4018b727d44/Screenshot%202025-01-30%20094331.png)
+
+CONDITIONS TO BE VERIFIED BEFORE MOVING FORWARD WITH CUSTOM DESIGNED CELL LAYOUT
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2015-43-37.png)
+
+CONDITION 1 VERIFIED
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2015-47-19.png)
+CONDITION 2 VERIFIED 
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2016-03-25.png)
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2015-47-07.png)
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2016-01-16.png)
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2016-05-54.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2016-07-07.png)
+command magic -T sky130A.tech sky130_vsdinv.mag &
+SCREENSHOT OF NEWLY SAVED LAYOUT
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2016-11-08.png)
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2016-11-30.png)
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2016-15-22.png)
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2016-34-48.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2016-34-57.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2017-13-35.png)
+
+config.tcl file
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2017-15-07.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2017-15-37.png)
+
+EDITED CONFIG.TCL 
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2017-45-53.png)
+
+RUN OPENLANE FLOW SYNTHESIS WITH INSERTED NEWLY CUSTOM INVERTER CELL
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2017-52-24.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2017-52-33.png)
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2017-54-35.png)
+
+NOTING DOWN CURRENT DESIGN VALUES GENERATED BEFORE MODIFYING PARAMETERS TO IMPROVE TIMING
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2017-56-12.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b5cf657956babe382f2597d73906074a9b48cccd/Screenshot%20from%202025-01-30%2017-56-26.png)
+
+# Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command./flow.tcl -interactive
+# Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flowpackage require openlane 0.9
+# Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design which in our case is 'picorv32a'prep -design picorv32a
+# Adiitional commands to include newly added lef to openlane flowset lefs [glob $::env(DESIGN_DIR)/src/*.lef]add_lefs -src $lefs
+# Now that the design is prepped and ready, we can run synthesis using following commandrun_synthesis
+
