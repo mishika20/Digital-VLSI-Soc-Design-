@@ -225,14 +225,9 @@ after placement now command to load placement def in magic in another terminal
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-07-14.png)
 
 SCREENSHOT OF PLACEMENT DEF IN MAGIC
-![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-07-27.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b3995ab17cda706c4b584b7ad69bcfd4e4b10b73/Screenshot%20from%202025-02-01%2010-40-43.png)
 
 SCREENSHOT OF CUSTOM INVERTER INSERTED IN PLACEMENT DEF 
-
-![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-14-10.png)
-
-coMMAND ON TKCON WINDOW
-![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-15-41.png)
-![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ec26fe25a126546466b0de4f90f7b86fdb73b424/Screenshot%20from%202025-01-30%2020-16-11.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b3995ab17cda706c4b584b7ad69bcfd4e4b10b73/Screenshot%20from%202025-02-01%2010-47-04.png)
 
 
