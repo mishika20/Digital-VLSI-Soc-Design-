@@ -312,7 +312,7 @@ SCREENSHOTS OF PDN DEF
 
 SCREENSHOTS OF ROUTING RUN
 
-1[image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/4d0bb3d7477184672560da142930c08f64eeb7d5/Screenshot%20from%202025-02-02%2017-20-08.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/4d0bb3d7477184672560da142930c08f64eeb7d5/Screenshot%20from%202025-02-02%2017-20-08.png)
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/4d0bb3d7477184672560da142930c08f64eeb7d5/Screenshot%20from%202025-02-02%2017-20-16.png)
 
 SCREENSHOT OF ROUTING DEF
