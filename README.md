@@ -309,3 +309,16 @@ SCREENSHOTS OF PDN DEF
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2016-18-15.png)
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2016-19-21.png)
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2016-19-34.png)
+
+SCREENSHOTS OF ROUTING RUN
+
+1[image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/4d0bb3d7477184672560da142930c08f64eeb7d5/Screenshot%20from%202025-02-02%2017-20-08.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/4d0bb3d7477184672560da142930c08f64eeb7d5/Screenshot%20from%202025-02-02%2017-20-16.png)
+
+SCREENSHOT OF ROUTING DEF
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/4d0bb3d7477184672560da142930c08f64eeb7d5/Screenshot%20from%202025-02-02%2017-23-23.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/4d0bb3d7477184672560da142930c08f64eeb7d5/Screenshot%20from%202025-02-02%2017-23-48.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/4d0bb3d7477184672560da142930c08f64eeb7d5/Screenshot%20from%202025-02-02%2017-26-56.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/4d0bb3d7477184672560da142930c08f64eeb7d5/Screenshot%20from%202025-02-02%2017-28-35.png)
+
