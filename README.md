@@ -231,3 +231,19 @@ SCREENSHOT OF CUSTOM INVERTER INSERTED IN PLACEMENT DEF
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/b3995ab17cda706c4b584b7ad69bcfd4e4b10b73/Screenshot%20from%202025-02-01%2010-47-04.png)
 
 
+pre_sta.conf file for STA in openlane directory
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/c32dd360fbabf9a6a3a518693a9f3632d46821c7/Screenshot%20from%202025-02-02%2014-41-34.png)
+
+my_base.sdc file 
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-48-17.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-48-28.png)
+
+STA ANALYSIS
+SCREENSHOTS OF COMMANDS
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-42-41.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-42-46.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-42-51.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-43-02.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-43-08.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-43-15.png)
+
