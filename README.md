@@ -261,33 +261,48 @@ FINAL STEPS FOR RTL2GDS USING TRITONROUTE AND OPENSTA
 PERFORM GENERATION PF POWER DISTRIBUTION NETWORK ANS EXPLORE THE PDN LAYOUT
 
  Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command
+
 ./flow.tcl -interactive
- Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flowpackage 
-require openlane 0.9
+
+ Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flow
+ 
+ package require openlane 0.9
+ 
+ 
  Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design which in our case is 'picorv32a'
+
 prep -design picorv32a
+
  Addiitional commands to include newly added lef to openlane flow merged.lefset 
+
 lefs [glob $::env(DESIGN_DIR)/src/*.lef
+
 add_lefs -src $lefs
+
  Command to set new value for SYNTH_STRATEGY
 set ::env(SYNTH_STRATEGY) "DELAY 3"
+ 
  Command to set new value for SYNTH_SIZING
 set ::env(SYNTH_SIZING) 1
+ 
  Now that the design is prepped and ready, we can run synthesis using following command
 run_synthesis
+
 Following commands are alltogather sourced in "run_floorplan" command
 init_floorplan
 place_io
 tap_decap_or
+
 Now we are ready to run placemen
 trun_placement
 
 With placement done we are now ready to run CTS
 run_cts
+
 Now that CTS is done we can do power distribution network
 gen_pdn 
 
-![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2016-20-03.png
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2016-20-03.png)
 
 SCREENSHOTS OF PDN DEF
 
