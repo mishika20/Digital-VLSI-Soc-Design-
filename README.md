@@ -247,3 +247,50 @@ SCREENSHOTS OF COMMANDS
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-43-08.png)
 ![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/fd7a82c0f66325cb1522d7f616da3ef79871b87b/Screenshot%20from%202025-02-02%2014-43-15.png)
 
+COMMANDS LOAD THE DESIGN AND RUN
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/6660b6f059ce4867bcab05d97f48b11ccb1607e8/Screenshot%20from%202025-02-02%2015-44-08.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2015-44-34.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2015-51-08.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2015-52-35.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2015-53-02.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2015-54-43.png)
+
+
+FINAL STEPS FOR RTL2GDS USING TRITONROUTE AND OPENSTA
+
+PERFORM GENERATION PF POWER DISTRIBUTION NETWORK ANS EXPLORE THE PDN LAYOUT
+
+ Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command
+./flow.tcl -interactive
+ Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flowpackage 
+require openlane 0.9
+ Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design which in our case is 'picorv32a'
+prep -design picorv32a
+ Addiitional commands to include newly added lef to openlane flow merged.lefset 
+lefs [glob $::env(DESIGN_DIR)/src/*.lef
+add_lefs -src $lefs
+ Command to set new value for SYNTH_STRATEGY
+set ::env(SYNTH_STRATEGY) "DELAY 3"
+ Command to set new value for SYNTH_SIZING
+set ::env(SYNTH_SIZING) 1
+ Now that the design is prepped and ready, we can run synthesis using following command
+run_synthesis
+Following commands are alltogather sourced in "run_floorplan" command
+init_floorplan
+place_io
+tap_decap_or
+Now we are ready to run placemen
+trun_placement
+
+With placement done we are now ready to run CTS
+run_cts
+Now that CTS is done we can do power distribution network
+gen_pdn 
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2016-20-03.png
+
+SCREENSHOTS OF PDN DEF
+
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2016-18-15.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2016-19-21.png)
+![image_alt](https://github.com/mishika20/Digital-VLSI-Soc-Design-/blob/ebf458e5cf051644f87d48ecf9007facd4a78bb0/Screenshot%20from%202025-02-02%2016-19-34.png)
